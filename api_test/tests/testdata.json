@@ -1,0 +1,6 @@
+{
+  "successGetListTodosLimit": 10,
+  "successGetUsersInactive": {
+    "status": "inactive"
+  }
+}

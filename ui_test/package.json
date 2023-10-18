@@ -1,0 +1,27 @@
+{
+  "name": "flip-ui-test",
+  "version": "1.0.0",
+  "description": "UI Automation using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annisaauliazaroh/flip-test.git"
+  },
+  "author": "annisa aulia zaroh",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "typescript": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/annisaauliazaroh/flip-test/issues"
+  },
+  "homepage": "https://github.com/annisaauliazaroh/flip-test#readme",
+  "devDependencies": {
+    "cypress": "^13.3.1"
+  }
+}

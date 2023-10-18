@@ -1,0 +1,27 @@
+{
+  "name": "api-automation-test",
+  "version": "1.0.0",
+  "description": "api automation using mocha chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha ./tests/api --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annisaauliazaroh/flip-test.git"
+  },
+  "author": "annisa aulia zaroh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annisaauliazaroh/flip-test/issues"
+  },
+  "homepage": "https://github.com/annisaauliazaroh/flip-test#readme",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3",
+    "mochawesome": "^7.1.3"
+  }
+}

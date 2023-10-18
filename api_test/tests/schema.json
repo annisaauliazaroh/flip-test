@@ -1,0 +1,62 @@
+{
+  "getTodosSchema": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": [
+        "id",
+        "user_id",
+        "title",
+        "due_on",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "user_id": {
+          "type": "number"
+        },
+        "title": {
+          "type": "string"
+        },
+        "due_on": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "getUsersSchema": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "email",
+        "gender",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
